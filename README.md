@@ -1,5 +1,9 @@
 # Eightfold Candidate Data Transformer
 
+Transforms messy multi-source candidate data (recruiter CSV, ATS JSON, GitHub profiles)
+into one clean, canonical, schema-validated candidate profile per person — with full
+provenance and confidence scoring.
+
 **Design Document:** [Harika_Gadagotti_harikagadagotti@gmail.com_Eightfold.pdf](./Harika_Gadagotti_harikagadagotti@gmail.com_Eightfold.pdf)
 
 ## Repository Contents
@@ -11,10 +15,6 @@
 - `tests/test_pipeline.py` — Automated test suite (6 test cases)
 - `Harika_Gadagotti_harikagadagotti@gmail.com_Eightfold.pdf` — One-page technical design document
 
-
-Transforms messy multi-source candidate data (recruiter CSV, ATS JSON, GitHub profiles)
-into one clean, canonical, schema-validated candidate profile per person — with full
-provenance and confidence scoring.
 
 ## Setup
 
