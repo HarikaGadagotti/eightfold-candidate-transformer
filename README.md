@@ -6,6 +6,10 @@ provenance and confidence scoring.
 
 **Design Document:** [Harika_Gadagotti_harikagadagotti@gmail.com_Eightfold.pdf](./Harika_Gadagotti_harikagadagotti@gmail.com_Eightfold.pdf)
 
+## Demo Video
+
+[Watch here](https://www.loom.com/share/c7d024df961745809ee3ec54102434e4)
+
 ## Repository Contents
 
 - `src/`, `cli.py` — Core pipeline implementation
