@@ -2,6 +2,16 @@
 
 **Design Document:** [Harika_Gadagotti_harikagadagotti@gmail.com_Eightfold.pdf](./Harika_Gadagotti_harikagadagotti@gmail.com_Eightfold.pdf)
 
+## Repository Contents
+
+- `src/`, `cli.py` — Core pipeline implementation
+- `config/` — Default and custom output configurations
+- `samples/` — Sample recruiter CSV and ATS JSON inputs
+- `output_default.json`, `output_custom.json`, `output_with_github.json` — Sample outputs generated from the provided inputs
+- `tests/test_pipeline.py` — Automated test suite (6 test cases)
+- `Harika_Gadagotti_harikagadagotti@gmail.com_Eightfold.pdf` — One-page technical design document
+
+
 Transforms messy multi-source candidate data (recruiter CSV, ATS JSON, GitHub profiles)
 into one clean, canonical, schema-validated candidate profile per person — with full
 provenance and confidence scoring.
