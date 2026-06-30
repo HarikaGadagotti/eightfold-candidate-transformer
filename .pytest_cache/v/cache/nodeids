@@ -1,0 +1,8 @@
+[
+  "tests/test_pipeline.py::test_case_insensitive_email_merge",
+  "tests/test_pipeline.py::test_csv_only",
+  "tests/test_pipeline.py::test_malformed_ats_skipped",
+  "tests/test_pipeline.py::test_merge_csv_and_ats",
+  "tests/test_pipeline.py::test_missing_phone_filled_from_other_source",
+  "tests/test_pipeline.py::test_missing_source_no_crash"
+]

@@ -1,0 +1,26 @@
+[
+{
+  "candidate_name":"Jane A. Doe",
+  "contact_email":"Jane.Doe@gmail.com",
+  "contact_phone":"9876543210",
+  "current_role":"Senior Software Engineer",
+  "employer":"Acme Corp",
+  "skills_list":["Python","AWS","Docker","Kubernetes"]
+},
+{
+  "candidate_name":"Ravi K",
+  "contact_email":"ravi.k@yahoo.com",
+  "contact_phone":null,
+  "current_role":"Backend Developer",
+  "employer":"TechNova Pvt Ltd",
+  "skills_list":["Python","FastAPI","Docker"]
+},
+{
+  "candidate_name":"John Smith",
+  "contact_email":"john@gmail.com",
+  "contact_phone":"+1 4155552671",
+  "current_role":"Software Engineer",
+  "employer":"Google",
+  "skills_list":["Go","C++","Distributed Systems"]
+}
+]

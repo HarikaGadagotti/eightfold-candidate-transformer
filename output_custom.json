@@ -1,0 +1,12 @@
+[
+  {
+    "full_name": "Jane Doe",
+    "primary_email": "jane.doe@gmail.com",
+    "phone": "+919876543210"
+  },
+  {
+    "full_name": "Ravi K",
+    "primary_email": "ravi.k@yahoo.com",
+    "phone": "+919123456780"
+  }
+]

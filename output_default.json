@@ -1,0 +1,112 @@
+[
+  {
+    "candidate_id": "a334348a",
+    "full_name": "Jane Doe",
+    "emails": [
+      "jane.doe@gmail.com"
+    ],
+    "phones": [
+      "+919876543210"
+    ],
+    "skills": [
+      {
+        "name": "python",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      }
+    ],
+    "provenance": [
+      {
+        "field": "email",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "phone",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "title",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "current_company",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      }
+    ],
+    "overall_confidence": 1.0
+  },
+  {
+    "candidate_id": "d19e7170",
+    "full_name": "Ravi K",
+    "emails": [
+      "ravi.k@yahoo.com"
+    ],
+    "phones": [
+      "+919123456780"
+    ],
+    "skills": [],
+    "provenance": [
+      {
+        "field": "email",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "phone",
+        "source": "recruiter_csv",
+        "method": "priority_rule",
+        "confidence": 0.75
+      },
+      {
+        "field": "title",
+        "source": "recruiter_csv",
+        "method": "priority_rule",
+        "confidence": 0.75
+      },
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "current_company",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      }
+    ],
+    "overall_confidence": 0.9
+  }
+]

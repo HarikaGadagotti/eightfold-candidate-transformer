@@ -1,0 +1,238 @@
+[
+  {
+    "candidate_id": "ab21d470",
+    "full_name": "Jane A. Doe",
+    "emails": [
+      "jane.doe@gmail.com"
+    ],
+    "phones": [
+      "+919876543210"
+    ],
+    "skills": [
+      {
+        "name": "python",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "kubernetes",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      }
+    ],
+    "provenance": [
+      {
+        "field": "email",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "phone",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "title",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "current_company",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      }
+    ],
+    "overall_confidence": 1.0
+  },
+  {
+    "candidate_id": "198e4f57",
+    "full_name": "Ravi K",
+    "emails": [
+      "ravi.k@yahoo.com"
+    ],
+    "phones": [
+      "+919123456780"
+    ],
+    "skills": [
+      {
+        "name": "python",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "fastapi",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      }
+    ],
+    "provenance": [
+      {
+        "field": "email",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "phone",
+        "source": "recruiter_csv",
+        "method": "priority_rule",
+        "confidence": 0.75
+      },
+      {
+        "field": "title",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "current_company",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      }
+    ],
+    "overall_confidence": 0.95
+  },
+  {
+    "candidate_id": "8e7a81c0",
+    "full_name": "John Smith",
+    "emails": [
+      "john@gmail.com"
+    ],
+    "phones": [
+      "+14155552671"
+    ],
+    "skills": [
+      {
+        "name": "go",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "c",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "distributed systems",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      }
+    ],
+    "provenance": [
+      {
+        "field": "email",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "phone",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 0.9
+      },
+      {
+        "field": "title",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "current_company",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      }
+    ],
+    "overall_confidence": 0.98
+  },
+  {
+    "candidate_id": "00d55d5c",
+    "full_name": "Linus Torvalds",
+    "emails": [],
+    "phones": [],
+    "skills": [
+      {
+        "name": "openscad",
+        "confidence": 0.8,
+        "sources": [
+          "github"
+        ]
+      },
+      {
+        "name": "c",
+        "confidence": 0.8,
+        "sources": [
+          "github"
+        ]
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "github",
+        "method": "priority_rule",
+        "confidence": 0.8
+      }
+    ],
+    "overall_confidence": 0.8
+  }
+]
