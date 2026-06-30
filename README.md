@@ -54,7 +54,7 @@ pytest tests/ -v
 |---|---|---|
 | email/phone | ATS > Recruiter CSV > Resume | ATS data is typically HR-verified |
 | full_name, title | ATS > Recruiter CSV > GitHub | Same reasoning |
-| skills | GitHub (proven via repo languages) > Resume (claimed) | Demonstrated skills are more trustworthy than self-reported ones |
+| skills | GitHub (repository languages) > Resume (self-reported skills) | Repository languages provide evidence of technologies used, while resume skills are self-reported. |
 
 ## Edge cases handled
 

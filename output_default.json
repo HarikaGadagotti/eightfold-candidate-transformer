@@ -1,7 +1,7 @@
 [
   {
-    "candidate_id": "a334348a",
-    "full_name": "Jane Doe",
+    "candidate_id": "30ad59ef",
+    "full_name": "Jane A. Doe",
     "emails": [
       "jane.doe@gmail.com"
     ],
@@ -25,6 +25,13 @@
       },
       {
         "name": "docker",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "kubernetes",
         "confidence": 0.9,
         "sources": [
           "ats_json"
@@ -66,7 +73,7 @@
     "overall_confidence": 1.0
   },
   {
-    "candidate_id": "d19e7170",
+    "candidate_id": "0ad96885",
     "full_name": "Ravi K",
     "emails": [
       "ravi.k@yahoo.com"
@@ -74,7 +81,29 @@
     "phones": [
       "+919123456780"
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "python",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "fastapi",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      }
+    ],
     "provenance": [
       {
         "field": "email",
@@ -90,9 +119,9 @@
       },
       {
         "field": "title",
-        "source": "recruiter_csv",
+        "source": "ats_json",
         "method": "priority_rule",
-        "confidence": 0.75
+        "confidence": 1.0
       },
       {
         "field": "full_name",
@@ -107,6 +136,72 @@
         "confidence": 1.0
       }
     ],
-    "overall_confidence": 0.9
+    "overall_confidence": 0.95
+  },
+  {
+    "candidate_id": "fa41ce71",
+    "full_name": "John Smith",
+    "emails": [
+      "john@gmail.com"
+    ],
+    "phones": [
+      "+14155552671"
+    ],
+    "skills": [
+      {
+        "name": "go",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "c",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "distributed systems",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      }
+    ],
+    "provenance": [
+      {
+        "field": "email",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "phone",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 0.9
+      },
+      {
+        "field": "title",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      },
+      {
+        "field": "current_company",
+        "source": "ats_json",
+        "method": "priority_rule",
+        "confidence": 1.0
+      }
+    ],
+    "overall_confidence": 0.98
   }
 ]
