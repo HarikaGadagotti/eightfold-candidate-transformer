@@ -1,5 +1,7 @@
 # Eightfold Candidate Data Transformer
 
+**Design Document:** [Harika_Gadagotti_harikagadagotti@gmail.com_Eightfold.pdf](./Harika_Gadagotti_harikagadagotti@gmail.com_Eightfold.pdf)
+
 Transforms messy multi-source candidate data (recruiter CSV, ATS JSON, GitHub profiles)
 into one clean, canonical, schema-validated candidate profile per person — with full
 provenance and confidence scoring.
