@@ -1,4 +1,4 @@
-import uuid
+import hashlib
 from src.extractors import csv_extractor, ats_json_extractor, github_extractor
 from src.merge import merge_all
 from src.validate import validate_profile
@@ -20,7 +20,14 @@ def run_pipeline(args):
     config = load_config(args.config)
     results = []
     for p in profiles:
-        p["candidate_id"] = str(uuid.uuid4())[:8]
+        match_key = (
+            (p.get("emails") or [None])[0]
+            or (p.get("phones") or [None])[0]
+            or p.get("full_name")
+            or "unknown"
+        )
+        p["candidate_id"] = hashlib.sha1(match_key.lower().encode()).hexdigest()[:8]
+
         p["overall_confidence"] = round(
             sum(pr["confidence"] for pr in p.get("provenance", [])) / max(len(p.get("provenance", [])), 1), 2
         )
